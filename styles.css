@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans";
+  text-align: center;
+}
+
+body {
+  background: hsl(185deg, 75%, 39%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 100%);
+  width: 21.9rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.bg img:first-of-type {
+  position: absolute;
+  top: -30rem;
+  left: -48rem;
+  z-index: -1;
+}
+.bg img:last-of-type {
+  position: absolute;
+  bottom: -30rem;
+  right: -48rem;
+  z-index: -1;
+}
+
+.images {
+  position: relative;
+}
+.images img:first-of-type {
+  width: 100%;
+}
+.images img:last-of-type {
+  width: 6rem;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid hsl(0deg, 0%, 100%);
+}
+
+.basic-info h1 {
+  margin-top: 4.7rem;
+  font-size: 1.3rem;
+}
+.basic-info h1 span {
+  font-weight: 400;
+  color: hsl(227deg, 10%, 46%);
+  margin-left: 0.3rem;
+}
+.basic-info p {
+  margin-top: 1rem;
+  color: hsl(227deg, 10%, 46%);
+  font-size: 1rem;
+}
+.basic-info div {
+  margin-top: 1.5rem;
+  height: 0.5px;
+  width: 100%;
+  background-color: hsla(0deg, 0%, 59%, 0.4);
+}
+
+.stats {
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  display: flex;
+}
+.stats article p:first-of-type {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.stats article p:last-of-type {
+  color: hsl(227deg, 10%, 46%);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+  .bg img:first-of-type {
+    position: absolute;
+    top: -30rem;
+    left: -35rem;
+    z-index: -1;
+  }
+  .bg img:last-of-type {
+    position: absolute;
+    bottom: -30rem;
+    right: -35rem;
+    z-index: -1;
+  }
+}
+@media (min-width: 1100px) {
+  .bg img:first-of-type {
+    position: absolute;
+    top: -30rem;
+    left: -25rem;
+    z-index: -1;
+  }
+  .bg img:last-of-type {
+    position: absolute;
+    bottom: -30rem;
+    right: -25rem;
+    z-index: -1;
+  }
+}
+@media (min-width: 1400px) {
+  .bg img:first-of-type {
+    position: absolute;
+    top: -30rem;
+    left: -15rem;
+    z-index: -1;
+  }
+  .bg img:last-of-type {
+    position: absolute;
+    bottom: -30rem;
+    right: -15rem;
+    z-index: -1;
+  }
+}/*# sourceMappingURL=styles.css.map */
